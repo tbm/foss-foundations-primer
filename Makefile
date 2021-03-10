@@ -1,7 +1,8 @@
 
 all: pdf
 
-foss-foundations-primer.pdf: foss-foundations-primer.tex
+chapters := $(wildcard chapters/*/*.tex)
+foss-foundations-primer.pdf: foss-foundations-primer.tex $(chapters)
 	pdflatex $<
 	pdflatex $<
 	pdflatex $<
