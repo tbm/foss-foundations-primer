@@ -12,13 +12,16 @@ ifxetexorluatex
 kaobook
 kaorefs
 labch
+labelitemi
 mainmatter
 maketitle
 noenddot
 pagelayout
 polyglossia
+renewcommand
 setchapterimage
 setmainlanguage
 tex
+textbullet
 twoside
 usepackage
