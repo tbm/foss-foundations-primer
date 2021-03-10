@@ -5,6 +5,7 @@ fi
 fontsize
 frontmatter
 hyperreferences
+hypersetup
 ifxetexorluatex
 kaobook
 kaorefs
