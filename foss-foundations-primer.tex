@@ -1,0 +1,43 @@
+% SPDX-FileCopyrightText: © 2021 Martin Michlmayr <tbm@cyrius.com>
+
+% SPDX-License-Identifier: CC-BY-4.0
+
+\documentclass[
+	a4paper,
+	fontsize=12pt,
+	twoside=false,
+	numbers=noenddot,
+]{kaobook}
+
+% Choose the language
+\ifxetexorluatex
+	\usepackage{polyglossia}
+	\setmainlanguage{english}
+\else
+	\usepackage[english]{babel}
+\fi
+
+% Load the package for hyperreferences
+\usepackage{styles/kaorefs}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\title{Some Title}
+\subtitle{\dots and the role of FOSS foundations}
+
+\author[Martin Michlmayr]{Martin Michlmayr}
+
+\date{April 2021}
+
+\frontmatter
+
+\maketitle
+
+%----------------------------------------------------------------------------------------
+
+\mainmatter
+
+\end{document}
+
