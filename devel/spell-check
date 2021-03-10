@@ -1,0 +1,6 @@
+#!/bin/sh
+
+find -name "*.tex" -exec aspell -d en_US -x --mode tex --home-dir=. check {} \;
+find -name "*.tex" -exec codespell {} \;
+find -name "*.tex" -exec anorack {} \;
+

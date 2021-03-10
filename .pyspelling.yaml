@@ -1,0 +1,17 @@
+spellchecker: aspell
+
+matrix:
+  - name: latex
+    default_encoding: utf-8
+    sources:
+      - "**/*.tex"
+    pipeline:
+      - pyspelling.filters.url:
+    aspell:
+      lang: en
+      d: en_US
+    dictionary:
+      encoding: utf-8
+      wordlists:
+        - .aspell.en.pws
+        - .words-latex

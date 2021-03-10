@@ -1,0 +1,17 @@
+FileCopyrightText
+SPDX
+documentclass
+fi
+fontsize
+frontmatter
+hyperreferences
+ifxetexorluatex
+kaobook
+kaorefs
+mainmatter
+maketitle
+noenddot
+polyglossia
+setmainlanguage
+twoside
+usepackage

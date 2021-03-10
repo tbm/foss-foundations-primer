@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: © 2021 Martin Michlmayr <tbm@cyrius.com>
+#
+# SPDX-License-Identifier: CC-BY-4.0
+on:
+  - push
+  - pull_request
+jobs:
+  checks:
+    name: Checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - run: sudo apt-get install aspell aspell-en
+      - run: pip install "pyspelling>=2.7"
+      - run: pyspelling
+      - run: pip install codespell
+      - run: find -name "*.tex" -exec codespell {} \;
