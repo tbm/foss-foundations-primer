@@ -4,12 +4,14 @@ addpart
 documentclass
 fi
 fontsize
+frametitle
 frontmatter
 href
 hyperreferences
 hypersetup
 ifxetexorluatex
 kaobook
+kaobox
 kaorefs
 labch
 labelitemi
