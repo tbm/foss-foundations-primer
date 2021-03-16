@@ -25,5 +25,6 @@ setchapterimage
 setmainlanguage
 tex
 textbullet
+textit
 twoside
 usepackage
