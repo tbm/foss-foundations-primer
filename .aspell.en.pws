@@ -1,4 +1,4 @@
-personal_ws-1.1 en 53 utf-8
+personal_ws-1.1 en 57 utf-8
 ASF
 Adriaan
 Akademy
@@ -15,6 +15,7 @@ Eghbal
 FOSS
 FOSSASIA
 GitLab
+Grantor
 GraphQL
 Groot
 Hackathons
@@ -37,10 +38,12 @@ Thierry
 VMware
 Weikert
 analytics
+backend
 bono
 colorlinks
 de
 english
+grantor
 hackathons
 inclusivity
 linkcolor
@@ -49,6 +52,7 @@ mentees
 mentorship
 pdfkeywords
 pdfsubject
+scalable
 urlcolor
 waterpass
 wifi
