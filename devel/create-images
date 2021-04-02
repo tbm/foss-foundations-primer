@@ -1,0 +1,262 @@
+#!/bin/sh
+
+# SPDX-FileCopyrightText: © 2021 Martin Michlmayr <tbm@cyrius.com>
+
+# SPDX-License-Identifier: CC0-1.0
+
+mkdir -p images
+cd images
+
+###########################################################################
+# Background
+###########################################################################
+
+## Bridge
+# Source: https://www.flickr.com/photos/johncunniff/19486177769/
+wget https://live.staticflickr.com/469/19486177769_513057dd3e_o_d.jpg
+convert 19486177769_513057dd3e_o_d.jpg -crop 3710x1598+400+0 -resize 1279x551 -quality 70 bridge.jpg
+rm -f 19486177769_513057dd3e_o_d.jpg
+
+## Matryoshka (growth issues)
+# Source: https://www.flickr.com/photos/carianoff/4484964103/
+wget https://live.staticflickr.com/4040/4484964103_3aa8bb8f03_o_d.jpg
+convert 4484964103_3aa8bb8f03_o_d.jpg -crop 2048x883+0+250 -resize 1279x551 -quality 70 matryoshka.jpg
+rm -f 4484964103_3aa8bb8f03_o_d.jpg
+
+# Tree (role of foundations)
+# Source: https://www.flickr.com/photos/124930081@N08/31594099295/
+wget https://live.staticflickr.com/296/31594099295_ea437cfbe8_o_d.jpg
+convert 31594099295_ea437cfbe8_o_d.jpg -crop 3696x1592+0+450 -resize 1279x551 -quality 70 tree.jpg
+rm -f 31594099295_ea437cfbe8_o_d.jpg
+
+###########################################################################
+# Governance
+###########################################################################
+
+## Carcassonne meeples, or followers (open collaboration)
+# Source: https://commons.wikimedia.org/wiki/File:Carcassonne_Miples.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/e/eb/Carcassonne_Miples.jpg
+convert Carcassonne_Miples.jpg -crop 1984x854+0+350 -resize 1279x551 -quality 70 collaboration.jpg
+rm -f Carcassonne_Miples.jpg
+
+## Waterpass (level playing field)
+# Source: https://commons.wikimedia.org/wiki/File:Waterpass.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/1/10/Waterpass.jpg
+convert Waterpass.jpg -crop 5184x2233+0+200 -resize 1279x551 -quality 70 waterpass.jpg
+rm -f Waterpass.jpg
+
+## Technical governance (division of project and organization)
+# Source: https://www.flickr.com/photos/candibj/48576057741/
+wget https://live.staticflickr.com/65535/48576057741_dabc70bc51_o_d.jpg
+convert 48576057741_dabc70bc51_o_d.jpg -crop 5994x2582+0+500 -resize 1279x551 -quality 70 ocean.jpg
+rm -f 48576057741_dabc70bc51_o_d.jpg
+
+## Elephant (instituational memory)
+# Source: https://commons.wikimedia.org/wiki/File:Red_elephant_in_dirt.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/f/f6/Red_elephant_in_dirt.jpg
+convert Red_elephant_in_dirt.jpg -crop 4770x2054+0+300 -resize 1279x551 -quality 70 elephant.jpg
+rm -f Red_elephant_in_dirt.jpg
+
+## Birds (Conflicts)
+# Source: https://commons.wikimedia.org/wiki/File:Chestnut-tailed_starling_-_%E0%A6%95%E0%A6%BE%E0%A6%A0_%E0%A6%B6%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/f/f8/Chestnut-tailed_starling_-_%E0%A6%95%E0%A6%BE%E0%A6%A0_%E0%A6%B6%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%95.jpg
+convert Chestnut-tailed_starling_-_কাঠ_শালিক.jpg -crop 3199x1378+0+510 -resize 1279x551 -quality 70 birds.jpg
+rm -f Chestnut-tailed_starling_-_কাঠ_শালিক.jpg
+
+###########################################################################
+## Community
+###########################################################################
+
+## Egg (incubation)
+# Source: https://www.flickr.com/photos/usfwspacific/31368620171/in/album-72157632891366006/
+wget https://live.staticflickr.com/5531/31368620171_76cb0035d6_o_d.jpg
+convert 31368620171_76cb0035d6_o_d.jpg -crop 4602x1983+0+30 -resize 1279x551 -quality 70 egg.jpg
+rm -f 31368620171_76cb0035d6_o_d.jpg
+
+## Mentorship
+# Source: https://commons.wikimedia.org/wiki/File:2019_Jan_15_-_Prayagraj_Kumbh_Mela_-_Portrait_of_an_Older_Man.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/0/0d/2019_Jan_15_-_Prayagraj_Kumbh_Mela_-_Portrait_of_an_Older_Man.jpg
+convert 2019_Jan_15_-_Prayagraj_Kumbh_Mela_-_Portrait_of_an_Older_Man.jpg -crop 2048x882+0+90 -resize 1279x551 -quality 70 mentor.jpg
+rm -f 2019_Jan_15_-_Prayagraj_Kumbh_Mela_-_Portrait_of_an_Older_Man.jpg
+
+## Bazaar
+# Souce: https://www.flickr.com/photos/bitboy/7634965560/
+wget https://live.staticflickr.com/8147/7634965560_c0412b0e22_o_d.jpg
+convert 7634965560_c0412b0e22_o_d.jpg -crop 2735x1178+0+640 -resize 1279x551 -quality 70 market.jpg
+rm -f 7634965560_c0412b0e22_o_d.jpg
+
+## Culture
+# Source: https://www.flickr.com/photos/dfataustralianaid/10706364576/in/album-72157637430496785/
+wget https://live.staticflickr.com/3679/10706364576_50df925b43_o_d.jpg
+convert 10706364576_50df925b43_o_d.jpg -crop 4818x2076+0+0 -resize 1279x551 -quality 70 dance.jpg
+rm -f 10706364576_50df925b43_o_d.jpg
+
+## Community health
+# Source: https://www.flickr.com/photos/141290938@N03/26682727064/
+wget https://live.staticflickr.com/7404/26682727064_c1540dc0a6_o_d.jpg
+convert 26682727064_c1540dc0a6_o_d.jpg -crop 1700x732+0+340 -resize 1279x551 -quality 70 stethoscope.jpg
+rm -f 26682727064_c1540dc0a6_o_d.jpg
+
+###########################################################################
+## Financial
+###########################################################################
+
+## Coins
+# Source: https://www.flickr.com/photos/meddygarnet/4423075785/
+wget https://live.staticflickr.com/2739/4423075785_8f6fb73e19_o_d.jpg
+convert 4423075785_8f6fb73e19_o_d.jpg -crop 2555x1101+0+478 -resize 1279x551 -quality 70 coins.jpg
+rm -f 4423075785_8f6fb73e19_o_d.jpg
+
+## Money
+# Source: https://commons.wikimedia.org/wiki/File:Money_in_notes.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/3/3b/Money_in_notes.jpg
+convert Money_in_notes.jpg -crop 5480x2361+0+850 -resize 1279x551 -quality 70 money.jpg
+rm -f Money_in_notes.jpg
+
+## Group photo (face-to-face meetings)
+# Source: https://commons.wikimedia.org/wiki/File:Wikimedia_Summit_2019_-_Group_photo_1.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/b/bf/Wikimedia_Summit_2019_-_Group_photo_1.jpg
+convert Wikimedia_Summit_2019_-_Group_photo_1.jpg -crop 5300x2292+0+1600 -resize 1279x551 -quality 40 group_photo.jpg
+rm -f Wikimedia_Summit_2019_-_Group_photo_1.jpg
+
+## Keyboard (development)
+# Source: https://www.flickr.com/photos/wiredforsound23/6948090750/
+wget https://live.staticflickr.com/68/204145200_50c586b760_o_d.jpg
+convert 204145200_50c586b760_o_d.jpg -crop 2048x882+0+500 -resize 1279x551 -quality 70 keyboard.jpg
+rm -f 204145200_50c586b760_o_d.jpg
+
+## Wheel (stewardship)
+# Source: https://www.flickr.com/photos/liesvanrompaey/4999951854/
+wget https://live.staticflickr.com/4151/4999951854_d36a7c2b35_o_d.jpg
+convert 4999951854_d36a7c2b35_o_d.jpg -crop 2250x970+0+900 -resize 1279x551 -quality 70 wheel.jpg
+rm -f 4999951854_d36a7c2b35_o_d.jpg
+
+## Window (transparency)
+# https://www.flickr.com/photos/10413717@N08/9255897859/
+wget https://live.staticflickr.com/2861/9255897859_a2761f3e65_o_d.jpg
+convert 9255897859_a2761f3e65_o_d.jpg -crop 2048x882+0+600 -resize 1279x551 -quality 70 window.jpg
+rm -f 9255897859_a2761f3e65_o_d.jpg
+
+###########################################################################
+## Legal
+###########################################################################
+
+## Code
+# Source: https://commons.wikimedia.org/wiki/File:Code_on_computer_monitor_(Unsplash).jpg
+wget https://upload.wikimedia.org/wikipedia/commons/7/7f/Code_on_computer_monitor_%28Unsplash%29.jpg
+convert Code_on_computer_monitor_\(Unsplash\).jpg -crop 5760x2482+0+0 -resize 1279x551 -quality 70 code.jpg
+rm -f Code_on_computer_monitor_\(Unsplash\).jpg
+
+## Coke
+# Source: https://commons.wikimedia.org/wiki/File:Coke_bottles_(336197108).jpg
+wget https://upload.wikimedia.org/wikipedia/commons/c/ca/Coke_bottles_%28336197108%29.jpg
+convert Coke_bottles_\(336197108\).jpg -crop 3264x1406+0+520 -resize 1279x551 -quality 70 coke.jpg
+rm -f Coke_bottles_\(336197108\).jpg
+
+## Stop (patents)
+# Source: https://www.flickr.com/photos/marfis75/24877162894/
+wget https://live.staticflickr.com/1634/24877162894_00b63e0ed0_o_d.jpg
+convert 24877162894_00b63e0ed0_o_d.jpg -crop 3869x1667+0+510 -resize 1279x551 -quality 70 stop.jpg
+rm -f 24877162894_00b63e0ed0_o_d.jpg
+
+## Accident (liability)
+# Source: https://commons.wikimedia.org/wiki/File:Japanese_car_accident_blur.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/5/50/Japanese_car_accident_blur.jpg
+convert Japanese_car_accident_blur.jpg -crop 4224x1819+0+000 -resize 1279x551 -quality 70 accident.jpg
+rm -f Japanese_car_accident_blur.jpg
+
+## Pen (contracts)
+# Source: https://commons.wikimedia.org/wiki/File:Fountain_pen_writing_(literacy).jpg
+wget https://upload.wikimedia.org/wikipedia/commons/7/7b/Fountain_pen_writing_%28literacy%29.jpg
+convert Fountain_pen_writing_\(literacy\).jpg -crop 4620x1990+0+800 -resize 1279x551 -quality 70 pen.jpg
+rm -f Fountain_pen_writing_\(literacy\).jpg
+
+###########################################################################
+## FOSS foundations
+###########################################################################
+
+## Classification
+# Source: https://commons.wikimedia.org/wiki/File:Illuminated_wooden_shelf_with_many_glass_jars_containing_cookies_for_sale_in_Tokyo.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/3/34/Illuminated_wooden_shelf_with_many_glass_jars_containing_cookies_for_sale_in_Tokyo.jpg
+convert Illuminated_wooden_shelf_with_many_glass_jars_containing_cookies_for_sale_in_Tokyo.jpg -crop 1400x604+648+2820 -resize 1279x551 -quality 70 cookies.jpg
+rm -f Illuminated_wooden_shelf_with_many_glass_jars_containing_cookies_for_sale_in_Tokyo.jpg
+
+## Service menu
+# Source: https://commons.wikimedia.org/wiki/File:Foodiesfeed.com_choosing-from-verde-cocina-menu.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/c/c7/Foodiesfeed.com_choosing-from-verde-cocina-menu.jpg
+convert Foodiesfeed.com_choosing-from-verde-cocina-menu.jpg -crop 4000x1724+0+0 -resize 1279x551 -quality 70 menu.jpg
+rm -f Foodiesfeed.com_choosing-from-verde-cocina-menu.jpg
+
+## Umbrella organizations
+# Source: https://commons.wikimedia.org/wiki/File:Souq_Waqif,_Doha,_Catar,_2013-08-05,_DD_11.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/9/91/Souq_Waqif%2C_Doha%2C_Catar%2C_2013-08-05%2C_DD_11.jpg
+convert Souq_Waqif,_Doha,_Catar,_2013-08-05,_DD_11.jpg -crop 3173x1367+0+0 -resize 1279x551 -quality 70 umbrella.jpg
+rm -f Souq_Waqif,_Doha,_Catar,_2013-08-05,_DD_11.jpg
+
+## Legal structure
+# Source: https://www.flickr.com/photos/xavier33300/14884844251/
+wget https://live.staticflickr.com/5580/14884844251_6bfd971877_o_d.jpg
+convert 14884844251_6bfd971877_o_d.jpg -crop 5424x2337+0+1480 -resize 1279x551 -quality 70 stonehenge.jpg
+rm -f 14884844251_6bfd971877_o_d.jpg
+
+## Geography
+wget https://upload.wikimedia.org/wikipedia/commons/6/67/Table_Bay%2C_Cape_Town.jpg
+convert Table_Bay,_Cape_Town.jpg -crop 1600x690+0+0 -resize 1279x551 -quality 70 cape_town.jpg
+rm -f Table_Bay,_Cape_Town.jpg
+
+# Traffic sign (Governance)
+# Source: https://www.flickr.com/photos/project-128/14187511671/
+wget https://live.staticflickr.com/5536/14187511671_60455da817_o_d.jpg
+convert 14187511671_60455da817_o_d.jpg -crop 7360x3172+0+1250 -resize 1279x551 -quality 70 traffic-sign-heart.jpg
+rm -f 14187511671_60455da817_o_d.jpg
+
+###########################################################################
+## Home
+###########################################################################
+
+## Life cycle
+# Source: https://www.flickr.com/photos/rod_waddington/50004674731/
+wget https://live.staticflickr.com/65535/50004674731_78c67ea8ce_o_d.jpg
+convert 50004674731_78c67ea8ce_o_d.jpg -crop 3865x1665+50+140 -resize 1279x551 -quality 60 woman-girl.jpg
+rm -f 50004674731_78c67ea8ce_o_d.jpg
+
+## Admin costs
+# Source: https://commons.wikimedia.org/wiki/File:India_-_Kolkata_coolies_-_3192.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/b/bf/India_-_Kolkata_coolies_-_3192.jpg
+convert India_-_Kolkata_coolies_-_3192.jpg -crop 3504x1510+0+100 -resize 1279x551 -quality 70 heavy-load.jpg
+rm -f India_-_Kolkata_coolies_-_3192.jpg
+
+## Build or join
+# Source: https://commons.wikimedia.org/wiki/File:Charles_Alfred_a.k.a(Tukheri_Alfred)20.jpg
+wget https://upload.wikimedia.org/wikipedia/commons/4/41/Charles_Alfred_a.k.a%28Tukheri_Alfred%2920.jpg
+convert Charles_Alfred_a.k.a\(Tukheri_Alfred\)20.jpg -crop 6000x2585+0+700 -resize 1279x551 -quality 70 build.jpg
+rm -f Charles_Alfred_a.k.a\(Tukheri_Alfred\)20.jpg
+
+## Cat (home)
+# Source: https://www.flickr.com/photos/julieeb/6121888498/
+wget https://live.staticflickr.com/6207/6121888498_34d00d56cc_o_d.jpg
+convert 6121888498_34d00d56cc_o_d.jpg -crop 5184x2233+0+1180 -resize 1279x551 -quality 70 cat.jpg
+rm -f 6121888498_34d00d56cc_o_d.jpg
+
+## Resources
+# Source: https://www.flickr.com/photos/robbertholf/19644248265/
+wget https://live.staticflickr.com/306/19644248265_c64243e35e_o_d.jpg
+convert 19644248265_c64243e35e_o_d.jpg -crop 4928x2123+0+300 -resize 1279x551 -quality 70 globe.jpg
+rm -f 19644248265_c64243e35e_o_d.jpg
+
+###########################################################################
+## Appendix
+###########################################################################
+
+## Thank you (ack)
+# Source: https://www.flickr.com/photos/dennissylvesterhurd/50161137826/
+wget https://live.staticflickr.com/65535/50161137826_4785eaecf3_o_d.jpg
+convert 50161137826_4785eaecf3_o_d.jpg -crop 3700x1594+0+815 -resize 1279x551 -quality 70 thank-you.jpg
+rm -f 50161137826_4785eaecf3_o_d.jpg
+
+## Image credits
+# Source: https://www.flickr.com/photos/gotcredit/30023411230/
+wget https://live.staticflickr.com/7477/30023411230_45509206a8_o_d.jpg
+convert 30023411230_45509206a8_o_d.jpg -crop 3210x1383+0+560 -resize 1279x551 -quality 70 credit.jpg
+rm -f 30023411230_45509206a8_o_d.jpg
+
