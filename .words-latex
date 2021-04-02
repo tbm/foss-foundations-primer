@@ -1,3 +1,7 @@
+CCBY
+CCBYSA
+CCPD
+CCZERO
 FileCopyrightText
 LaTeX
 SPDX
@@ -17,9 +21,11 @@ labch
 labelitemi
 mainmatter
 maketitle
+newcommand
 noenddot
 pagelayout
 polyglossia
+refch
 renewcommand
 setchapterimage
 setmainlanguage
