@@ -16,4 +16,4 @@ jobs:
       - run: pip install "pyspelling>=2.7"
       - run: pyspelling
       - run: pip install codespell
-      - run: find -name "*.tex" -exec codespell {} \;
+      - run: find \( -name "*.md" -or -name "*.tex" \) -exec codespell {} \;

@@ -4,3 +4,7 @@ find -name "*.tex" -exec aspell -d en_US -x --mode tex --home-dir=. check {} \;
 find -name "*.tex" -exec codespell {} \;
 find -name "*.tex" -exec anorack {} \;
 
+find -name "*.md" -exec aspell -d en_US -x --mode markdown --home-dir=. check {} \;
+find -name "*.md" -exec codespell {} \;
+find -name "*.md" -exec anorack {} \;
+
