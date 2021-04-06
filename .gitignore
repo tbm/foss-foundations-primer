@@ -1,5 +1,6 @@
 *.aux
 *.log
 *.mw
+*.toc
 foss-foundations-primer.pdf
 dictionary.dic

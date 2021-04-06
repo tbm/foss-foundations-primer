@@ -29,6 +29,7 @@ refch
 renewcommand
 setchapterimage
 setmainlanguage
+tableofcontents
 tex
 textbullet
 textit

@@ -6,6 +6,7 @@ foss-foundations-primer.pdf: foss-foundations-primer.tex $(chapters)
 	pdflatex $<
 	pdflatex $<
 	pdflatex $<
+	pdflatex $<
 
 pdf: foss-foundations-primer.pdf
 
@@ -14,7 +15,7 @@ spell:
 	pyspelling
 
 clean:
-	rm -f foss-foundations-primer.aux foss-foundations-primer.log foss-foundations-primer.mw foss-foundations-primer.pdf
+	rm -f foss-foundations-primer.aux foss-foundations-primer.log foss-foundations-primer.mw foss-foundations-primer.pdf foss-foundations-primer.toc
 	rm -f dictionary.dic
 
 .PHONY: all clean pdf spell
