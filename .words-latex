@@ -6,6 +6,8 @@ FileCopyrightText
 LaTeX
 SPDX
 addpart
+backmatter
+clearpage
 documentclass
 fi
 fontsize
@@ -21,6 +23,7 @@ labch
 labelitemi
 mainmatter
 maketitle
+medskip
 newcommand
 noenddot
 pagelayout
@@ -31,7 +34,11 @@ setchapterimage
 setmainlanguage
 tableofcontents
 tex
+textbf
 textbullet
+textheight
 textit
+thispagestyle
 twoside
 usepackage
+vspace
