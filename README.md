@@ -11,3 +11,7 @@ The photos are distributed under a number of different licenses; see the [image 
 
 My research on FOSS foundations was sponsored by the [Ford Foundation](https://www.fordfoundation.org/) and the [Alfred P. Sloan Foundation](https://sloan.org/) through their [Critical Digital Infrastructure Research](https://www.fordfoundation.org/campaigns/critical-digital-infrastructure-research/) initiative.
 
+## Build dependencies
+
+    apt install texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-extra texlive-science
+
