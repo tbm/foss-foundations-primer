@@ -1,4 +1,4 @@
-personal_ws-1.1 en 159 utf-8
+personal_ws-1.1 en 164 utf-8
 AISBL
 ASF
 Adriaan
@@ -6,6 +6,7 @@ AerialcamSA
 Akademy
 Analytics
 Anthonia
+Avolio
 Balone
 Barcomb
 Bartl
@@ -127,6 +128,7 @@ bono
 candi
 carte
 colorlinks
+comouflage
 cyrillic
 de
 deductibility
@@ -151,6 +153,7 @@ pdfsubject
 roadmap
 scalable
 screencasts
+sep
 stonehenge
 unfiled
 urlcolor
@@ -158,3 +161,5 @@ variegata
 waterpass
 wifi
 xavier
+ysep
+yshift

@@ -11,6 +11,12 @@ cd images
 # Frontmatter
 ###########################################################################
 
+## Sunflower
+# Source: https://www.flickr.com/photos/savolio/43652503821/
+wget https://live.staticflickr.com/923/43652503821_a99950c349_o_d.jpg
+convert 43652503821_a99950c349_o_d.jpg -crop 1037x1467+980+0 -quality 60 comouflage.jpg
+rm -f 43652503821_a99950c349_o_d.jpg
+
 ## Flowers
 # Source: https://www.flickr.com/photos/martin_l_h/34514200226/
 wget https://live.staticflickr.com/4171/34514200226_e6d495f42f_o_d.jpg

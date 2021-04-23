@@ -48,7 +48,40 @@
 
 \frontmatter
 
-\maketitle
+\begin{titlepage}
+
+\makeatletter
+\begin{tikzpicture}[remember picture, overlay]
+    \node (image) at (current page.center) [
+	inner sep=0pt,
+	outer sep=0pt,
+	]{\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio=false]{images/comouflage}};
+    \node [
+	fill=gray!20!white,
+	fill opacity=0.8,
+	align=center,
+	minimum width=\paperwidth,
+	minimum height=2cm,
+	anchor=north,
+	inner ysep=1.2cm
+    ] (Box1) at ([yshift=-21cm]current page.north) {
+	{\Huge\textbf{Growing Open-Source Projects with a}}
+	\\
+	\\
+	{\Huge\textbf{Stable Foundation}\par}
+	\\
+	\\
+	\\
+	{\LARGE \@author}
+	\\
+	\\
+	\\
+	{\Large \@date}
+    };
+\end{tikzpicture}
+\makeatother
+
+\end{titlepage}
 
 \input{chapters/front/preface.tex}
 \index{preface}
