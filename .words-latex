@@ -18,6 +18,7 @@ hyperreferences
 hypersetup
 ifxetexorluatex
 includegraphics
+itemsep
 kaobox
 kaorefs
 keepaspectratio
