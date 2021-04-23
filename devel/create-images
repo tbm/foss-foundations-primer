@@ -13,13 +13,15 @@ cd images
 
 ## Flowers
 # Source: https://www.flickr.com/photos/martin_l_h/34514200226/
-https://live.staticflickr.com/4171/34514200226_e6d495f42f_o_d.jpg
+wget https://live.staticflickr.com/4171/34514200226_e6d495f42f_o_d.jpg
 convert 34514200226_e6d495f42f_o_d.jpg -crop 4896x2109+0+0 -resize 1279x551 -quality 70 flowers.jpg
+rm -f 34514200226_e6d495f42f_o_d.jpg
 
 ## Book (content)
 # Source: https://www.flickr.com/photos/naivepaintings/43496736484/
-https://live.staticflickr.com/1863/43496736484_301d2cec29_o_d.jpg
+wget https://live.staticflickr.com/1863/43496736484_301d2cec29_o_d.jpg
 convert 43496736484_301d2cec29_o_d.jpg -crop 1000x431+0+280 -quality 70 book.jpg
+rm -f 43496736484_301d2cec29_o_d.jpg
 
 ###########################################################################
 # Background
