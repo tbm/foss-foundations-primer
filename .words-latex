@@ -30,6 +30,7 @@ makeatother
 maketitle
 medskip
 newcommand
+newpage
 noenddot
 pagelayout
 paperheight
