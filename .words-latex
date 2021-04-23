@@ -7,6 +7,7 @@ LaTeX
 SPDX
 addpart
 backmatter
+chapterpagestyle
 clearpage
 documentclass
 fi
@@ -33,11 +34,15 @@ newcommand
 newpage
 noenddot
 pagelayout
+pagenum
 paperheight
 paperwidth
+parbox
 polyglossia
 refch
 renewcommand
+renewpagestyle
+scrheadings
 setchapterimage
 setmainlanguage
 tableofcontents
@@ -46,6 +51,8 @@ textbf
 textbullet
 textheight
 textit
+textwidth
+thepage
 thispagestyle
 tikzpicture
 titlepage

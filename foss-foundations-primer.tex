@@ -9,6 +9,17 @@
 	numbers=noenddot,
 ]{kaobook}
 
+\renewpagestyle{pagenum.scrheadings}{%
+ {}%
+ {}%
+ {}%
+}{%
+ {\parbox[b][][c]{\textwidth}{\centering\thepage}}%
+ {\parbox[b][][c]{\textwidth}{\centering\thepage}}%
+ {\parbox[b][][c]{\textwidth}{\centering\thepage}}%
+}
+\renewcommand{\chapterpagestyle}{pagenum.scrheadings}
+
 % Choose the language
 \ifxetexorluatex
 	\usepackage{polyglossia}
