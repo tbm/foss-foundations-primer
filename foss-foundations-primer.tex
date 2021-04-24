@@ -9,17 +9,6 @@
 	numbers=noenddot,
 ]{kaobook}
 
-\renewpagestyle{pagenum.scrheadings}{%
- {}%
- {}%
- {}%
-}{%
- {\parbox[b][][c]{\textwidth}{\centering\thepage}}%
- {\parbox[b][][c]{\textwidth}{\centering\thepage}}%
- {\parbox[b][][c]{\textwidth}{\centering\thepage}}%
-}
-\renewcommand{\chapterpagestyle}{pagenum.scrheadings}
-
 % Choose the language
 \ifxetexorluatex
 	\usepackage{polyglossia}
@@ -30,6 +19,8 @@
 
 % Load the package for hyperreferences
 \usepackage{kaorefs}
+
+\renewcommand{\chapterpagestyle}{centeredpagenum.scrheadings}
 
 \renewcommand\labelitemi{\textbullet}% bullet
 
