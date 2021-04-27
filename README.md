@@ -1,5 +1,5 @@
 
-This is a primer about non-technical issues which open-source projects face and the role of FOSS foundations.
+This is a primer about non-technical issues which open source projects face and the role of FOSS foundations.
 
 ## License
 
