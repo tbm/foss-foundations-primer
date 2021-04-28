@@ -15,3 +15,5 @@ My research on FOSS foundations was sponsored by the [Ford Foundation](https://w
 
     apt install texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-extra texlive-science
 
+You also need the [kaobook class](https://github.com/fmarotta/kaobook]).
+
